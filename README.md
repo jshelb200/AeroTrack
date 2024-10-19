@@ -1,3 +1,5 @@
+
+
 # AeroTrack - IoT Optimized Energy Monitoring System
 
 AeroTrack is an IoT project designed to monitor environmental conditions while minimizing energy consumption. The system uses an ESP32, sensors, and cloud services to gather data and trigger alerts when anomalies are detected. The focus of the project is on energy optimization through the use of light sleep modes and careful scheduling of tasks.
@@ -53,3 +55,6 @@ Air Quality Monitoring
     The ESP32 monitors indoor conditions via the BME680 sensor and compares them with data from WeatherStack.
     The system conserves energy by using light sleep between tasks, waking only to take measurements or send alerts.
     If anomalies like smoke or significant humidity differences are detected, an SMS alert is triggered, and the data is sent to the Node-RED dashboard.
+
+
+
